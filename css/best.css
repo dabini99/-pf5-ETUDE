@@ -1,0 +1,51 @@
+section#best {
+  min-height: 800px;
+}
+section#best div.wrap {
+  
+}
+section#best div.wrap h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+section#best div.wrap h2::before{
+  content: "";
+  background-image: url(../img/playwithetude-icon.png);
+  width: 36px;
+  height: 47px;
+  display: block;
+  margin: 0 auto;
+  padding-bottom: 20px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+section#best div.wrap a {  
+  text-align: center;
+}
+section#best div.wrap ul {
+  
+}
+section#best div.wrap ul div.products {
+  
+}
+section#best div.wrap ul div.products img {
+  
+}
+section#best div.wrap ul div.products h3 {
+  
+}
+section#best div.wrap ul div.products p {
+  
+}
+section#best div.wrap ul div.products p span {
+  
+}
+section#best div.wrap ul div.products p span br {
+  
+}
+section#best div.wrap ul div.products a {
+  
+}
+.slick-slide {
+  margin: 0 5px; /* space(여백)/2 */
+}

@@ -1,0 +1,71 @@
+section#photos {  
+  /*! position: relative; */
+}
+section#photos div.wrap {  
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 40px;
+  position: relative;
+}
+section#photos div.wrap div.tik {
+  
+}
+section#photos div.wrap div.tik p.tiktok {  
+  /*! transform: rotate(90deg); */
+  /*! width: 100%; */
+  /*! height: 50px; */
+}
+section#photos div.wrap div.tik p.tiktok strong {
+  
+}
+section#photos div.wrap div.tik a {
+  
+}
+section#photos div.wrap div.insta {
+  
+}
+section#photos div.wrap div.insta p.instagram{  
+  position: absolute;
+  top: -30px;
+  right: 0;
+}
+section#photos div.wrap div.insta p.insta {  
+  position: absolute;
+  bottom: 0;
+  right: 241px;
+  font-size: 24px;
+  font-weight: 700;
+}
+section#photos div.wrap div.insta p.insta strong {
+  
+}
+section#photos div.wrap div.insta a {
+  
+}
+section#photos div.wrap div.insta ul {
+  
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  right: 0;
+  gap: 20px;
+}
+section#photos div.wrap div.insta ul li {
+  
+  width: 38px;
+  height: 38px;
+  font-size: 0;
+  background-size: contain;
+}
+section#photos div.wrap div.insta ul li:nth-child(1){  
+  background-image: url(../img/instagram.svg);
+}
+section#photos div.wrap div.insta ul li:nth-child(2){  
+  background-image: url(../img/facebook.svg);
+}
+section#photos div.wrap div.insta ul li:nth-child(3){  
+  background-image: url(../img/youtube.svg);
+}
+section#photos div.wrap div.insta ul li:nth-child(4){  
+  background-image: url(../img/tiktok.svg);
+}

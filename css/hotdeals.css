@@ -1,0 +1,58 @@
+section#hotdeals {
+  min-height: 800px;
+}
+section#hotdeals div.wrap {
+  
+}
+section#hotdeals div.wrap h2 { 
+  text-align: center;
+  margin-bottom: 30px;
+}
+section#hotdeals div.wrap h2::before{
+  content: "";
+  background-image: url(../img/newevent-icon.png);
+  width: 36px;
+  height: 47px;
+  display: block;
+  margin: 0 auto;
+  padding-bottom: 20px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+section#hotdeals div.wrap ul {  
+  
+}
+section#hotdeals div.wrap ul .products {
+  
+}
+section#hotdeals div.wrap ul .products img {
+  
+}
+section#hotdeals div.wrap ul .products h3 {
+  
+}
+section#hotdeals div.wrap ul .products p {
+  
+}
+section#hotdeals div.wrap ul .products p span {
+  
+}
+section#hotdeals div.wrap ul .products p span br {
+  
+}
+section#hotdeals div.wrap ul .products a {  
+  position: relative;
+  z-index: 1;
+}
+section#hotdeals div.wrap ul .products a::before{
+  content: "";
+  display: block;
+  width: 105px;
+  background-color: rgba(0,0,125,0.3);
+  position: absolute;
+  height: 100%;
+  border-radius: 5px;
+}
+.slick-slide {
+  margin: 0 5px; /* space(여백)/2 */
+}

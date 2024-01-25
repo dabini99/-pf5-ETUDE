@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>개인pf5-에뛰드</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/common.css">
+    <!-- //구글폰트 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Noto+Sans+KR:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <!-- 구글폰트// -->
+    <!-- 프리텐다드 -->
+    <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css" />
+    <!--  -->
+    <!-- https://ionic.io/ionicons/v1 -->
+    <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/1.5.2/css/ionicons.min.css">
+    <!--  -->
+    <link rel="stylesheet" href="css/font.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/title.css">
+    <link rel="stylesheet" href="css/hotdeals.css">
+    <link rel="stylesheet" href="css/new.css">
+    <link rel="stylesheet" href="css/best.css">
+    <link rel="stylesheet" href="css/photos.css">
+    <link rel="stylesheet" href="css/ham.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/response.css">
+    <!-- 제이쿼리 -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- <script src="js/jquery-3.7.1.min.js"></script> -->
+    <!-- slik -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(
+            function(){
+                $('.hot').slick({
+                    infinite: true,
+                    slidesToShow: 5,
+                    slidesToScroll: 1,
+                    dots: true,
+                    arrows: true 
+                });
+                $('.newo').slick({
+                    infinite: true,
+                    slidesToShow: 4,
+                    slidesToScroll: 1,
+                    rows: 2,
+                    dots: true,
+                    arrows: true
+                });
+                $('.be').slick({
+                    infinite: true,
+                    slidesToShow: 5,
+                    slidesToScroll: 1,
+                    dots: true,
+                    arrows: true 
+                });
+            }
+        );
+    </script>
+</head>
+<body>
+    <!-- 상단영역 -->
+    <header class="paddingT30 paddingB30">
+        <div class="wrap flex">
+            <h2>logo</h2>
+            <ul class="gnb flex">
+                <li>SHOP</li>
+                <li>COLLECTIONS</li>
+                <li>NEW</li>
+                <li>BEST</li>
+                <li>EVENT</li>
+                <li>BEAUTY OFFERS</li>
+                <li>REVIEWS</li>
+                <li>HOT DEALS</li>
+            </ul>
+            <ul class="log flex">
+                <li>search</li>
+                <li>하트</li>
+                <li>장바구니</li>
+                <li>Login</li>
+                <li>Register</li>
+            </ul>
+        </div>
+    </header>
+    <!-- 타이틀영역 -->
+    <div id="title">
+        <div class="photo1 flex vh100">
+            <h2>Replay Collection Launch</h2>
+            <p>~50% OFF & Launching Gift</p>
+        </div>  
+        <div class="photo2 hide">
+            <h2>New Year Welcome Event</h2>
+            <p>$1 Deal & Coupons & Free Gifts</p>
+        </div>
+        <div class="photo3 hide">
+            <h2>ETUDE TALK</h2>
+            <p>Winter Base Makeup</p>
+        </div>
+    </div>
+    <!-- 메인영역 -->
+    <main>
+        <!-- hotdeals -->
+        <section id="hotdeals" class="paddingT50 paddingB50 vh100">
+            <div class="wrap">
+                <h2 class="h3">Hot Deals</h2>
+                <ul class="flex hot">
+                    <div class="products">
+                        <img src="img/best1-1.jpg" alt="1-1">
+                        <h3>[SET] Replay Collection Full Set (+Free GIft)</h3>
+                        <p><span>US $86.20</span><br>US $172.40</br></p>
+                        <a href="">ADD TO CART</a>
+                    </div>
+                    <div class="products">
+                        <img src="img/best2-1.jpg" alt="2-1">
+                        <h3>Moistfull Collagen Cream 75ml</h3>
+                        <p><span>US $30.00</span></p>
+                        <a href="">ADD TO CART</a>
+                    </div>
+                    <div class="products">
+                        <img src="img/best3-1.jpg" alt="3-1">
+                        <h3>[SET] Firming Skincare Essentials</h3>
+                        <p><span>US $68.18</span><br>US $97.40</br></p>
+                        <a href="">ADD TO CART</a>
+                    </div>
+                    <div class="products">
+                        <img src="img/best4-1.jpg" alt="4-1">
+                        <h3>[SET] Replay Collection Duo Set (+Free Gift)</h3>
+                        <p>As low as:<span>US $23.04</span><br>US $38.40</br></p>
+                        <a href="">ADD TO CART</a>
+                    </div>
+                    <div class="products">
+                        <img src="img/best5-1.jpg" alt="5-1">
+                        <h3>Soonjung 2x Barrier Intensive Cream 60ml</h3>
+                        <p><span>US $20.40</span></p>
+                        <a href="">ADD TO CART</a>
+                    </div>
+                    <div class="products">
+                        <img src="img/best6-1.jpg" alt="6-1">
+                        <h3>Face Blur 35g</h3>
+                        <p>As low as:<span>US $19.20</span></p>
+                        <a href="">ADD TO CART</a>
+                    </div>
+                    <div class="products">
+                        <img src="img/best7-1.jpg" alt="7-1">
+                        <h3>[SET] Over-Lip Duo</h3>
+                        <p><span>US $20.16</span><br>US $28.80</br></p>
+                        <a href="">ADD TO CART</a>
+                    </div>
+                    <div class="products">
+                        <img src="img/best8-1.jpg" alt="8-1">
+                        <h3>REPLAY Play Color Eyes</h3>
+                        <p>As low as:<span>US $17.28</span><br>US $21.60</br></p>
+                        <a href="">ADD TO CART</a>
+                    </div>
+                </ul>
+            </div>
+        </section>
+        <!-- New -->
+        <section id="new" class="paddingT50 paddingB50">
+            <div class="wrap">
+                <h2 class="h3">What's New</h2>
+                <a href=""><p>View More</p></a>
+                <ul>
+                    <h2 class="p">REPLAY Play Color Eyes<span>#Legendary Taro Cherry</span></h2>
+                    <div class="newpro newo">
+                        <div class="products">
+                            <img src="img/new_photo_eyes1.jpg" alt="[SET] REPLAY Look At My Eyes Full Set">
+                            <h3>[SET] REPLAY Look At My Eyes Full Set (+Free Gift)</li>
+                            <p>US $34.32<span>US $57.20</span></p>
+                            <a href="">ADD TO CART</a>
+                        </div>
+                        <div class="products">
+                            <img src="img/new_replay_pce_main1.jpg" alt="REPLAY Play Color Eyes">
+                            <h3>REPLAY Play Color Eyes</li>
+                            <p>As low as:<span>US $17.28</span><br>US $21.60</br></p>
+                            <a href="">ADD TO CART</a>
+                        </div>
+                        <div class="products">
+                            <img src="img/new_photo_oil_set1.jpg" alt="oil set">
+                            <h3>[SET] Dear Darling Oil Tint Full Set 6 Colors</li>
+                            <p>US $55.44<br>US $79.20</br></p>
+                            <a href="">ADD TO CART</a>
+                        </div>
+                        <div class="products">
+                            <img src="img/new_photo_panda1.jpg" alt="panda">
+                            <h3>Missing U Hand Cream #I'm a Peachy Panda</li>
+                            <p>US $6.82<br>US $9.75</br></p>
+                            <a href="">ADD TO CART</a>
+                        </div>
+                        <div class="products">
+                            <img src="img/new_photo_oil1.jpg" alt="oil">
+                            <h3>Dear Darling Oil Tint</li>
+                            <p>As low as:<span>US $10.56</span><br>US $13.20</br></p>
+                            <a href="">ADD TO CART</a>
+                        </div>
+                        <div class="products">
+                            <img src="img/new_replay_sgb_main1.jpg" alt="Glossy Balm">
+                            <h3>REPLAY Syrup Glossy Balm</li>
+                            <p>As low as:<span>US $13.44</span><br>US $16.80</br></p>
+                            <a href="">ADD TO CART</a>
+                        </div>
+                        <div class="products">
+                            <img src="img/new_replay_lme_main1_1.jpg" alt="look at my eyes">
+                            <h3>REPLAY Look At My Eyes</li>
+                            <p>As low as:<span>US $5.72</span><br>US $7.15</br></p>
+                            <a href="">ADD TO CART</a>
+                        </div>
+                        <div class="products">
+                            <img src="img/new_set_replay_collection_full_set_main1_2.jpg" alt="Collection Full Set">
+                            <h3>[SET] REPLAY Collection Full Set (+Free Gift)</li>
+                            <p><span>US $86.20</span><br>US $172.40</br></p>
+                            <a href="">ADD TO CART</a>
+                        </div>
+                    </div>
+                </ul>
+            </div>
+        </section>
+        <!-- best -->
+        <section id="best" class="flex paddingT50 paddingB50 vh100">
+            <div class="wrap vh100">
+                <h2 class="h3">Best Seller</h2>
+                <a href=""><p>View More</p></a>
+                <ul class="be">
+                    <div class="products">
+                        <img src="img/best1-1.jpg" alt="1-1">
+                        <h3>[SET] Replay Collection Full Set (+Free GIft)</h3>
+                        <p><span>US $86.20</span><br>US $172.40</br></p>
+                        <a href="">ADD TO CART</a>
+                    </div>
+                    <div class="products">
+                        <img src="img/best2-1.jpg" alt="2-1">
+                        <h3>Moistfull Collagen Cream 75ml</h3>
+                        <p><span>US $30.00</span></p>
+                        <a href="">ADD TO CART</a>
+                    </div>
+                    <div class="products">
+                        <img src="img/best3-1.jpg" alt="3-1">
+                        <h3>[SET] Firming Skincare Essentials</h3>
+                        <p><span>US $68.18</span><br>US $97.40</br></p>
+                        <a href="">ADD TO CART</a>
+                    </div>
+                    <div class="products">
+                        <img src="img/best4-1.jpg" alt="4-1">
+                        <h3>[SET] Replay Collection Duo Set (+Free Gift)</h3>
+                        <p>As low as:<span>US $23.04</span><br>US $38.40</br></p>
+                        <a href="">ADD TO CART</a>
+                    </div>
+                    <div class="products">
+                        <img src="img/best5-1.jpg" alt="5-1">
+                        <h3>Soonjung 2x Barrier Intensive Cream 60ml</h3>
+                        <p><span>US $20.40</span></p>
+                        <a href="">ADD TO CART</a>
+                    </div>
+                    <div class="products">
+                        <img src="img/best6-1.jpg" alt="6-1">
+                        <h3>Face Blur 35g</h3>
+                        <p>As low as:<span>US $19.20</span></p>
+                        <a href="">ADD TO CART</a>
+                    </div>
+                    <div class="products">
+                        <img src="img/best7-1.jpg" alt="7-1">
+                        <h3>[SET] Over-Lip Duo</h3>
+                        <p><span>US $20.16</span><br>US $28.80</br></p>
+                        <a href="">ADD TO CART</a>
+                    </div>
+                    <div class="products">
+                        <img src="img/best8-1.jpg" alt="8-1">
+                        <h3>REPLAY Play Color Eyes</h3>
+                        <p>As low as:<span>US $17.28</span><br>US $21.60</br></p>
+                        <a href="">ADD TO CART</a>
+                    </div>
+                </ul>
+            </div>
+        </section>
+        <!-- photos -->
+        <section id="photos" class="paddingT50 paddingB50">
+            <div class="wrap">
+                <div class="tik flex">
+                    <p class="tiktok">ETUDE Official <strong>TikTok</strong></p>
+                    <a href=""><img src="img/tik1-1.jpg" alt="tik1-1"></a>
+                    <a href=""><img src="img/tik1-2.jpg" alt="tik1-2"></a>
+                </div>
+                <div class="insta flex">
+                    <p class="instagram">ETUDE Official <strong>Instagram</strong></p>
+                    <a href=""><img src="img/in2-1.jpg" alt="in2-1"></a>
+                    <a href=""><img src="img/in2-2.jpg" alt="in2-2"></a>
+                    <p class="insta">Connect With Us</p>
+                    <ul>
+                        <li>인스타</li>
+                        <li>페이스북</li>
+                        <li>유튜브</li>
+                        <li>틱톡</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <!-- banner -->
+        <section id="banner">
+            <div class="wrap flex vh100">
+                <a href="">
+                    <img src="img/banner1-1.jpg" alt="banner1-1">
+                    <img src="img/banner1-2.jpg" alt="banner1-2">
+                </a>
+            </div>
+        </section>
+    </main>
+    <!-- 우측 슬라이드 아이콘
+    <aside>
+        <ul>
+            <li><a href="" class="currentB">point</a></li>
+            <li><a href="">mission</a></li>
+            <li><a href="">benefit</a></li>
+            <li><a href="">download</a></li>
+        </ul>
+    </aside> -->
+    <!-- 하단영역 -->
+    <footer class="paddingT50 paddingB50">
+        <div>
+            <p>Join Us And Be The First To Know About Promotions, Exclusive Offers, And More.</p>
+            <h2>Sign up for updates</h2>
+            <li>Your email address</li>
+            <li>SUBSCRIBE</li>
+            <p> I have read and accept the privacy policy. </p>
+            <ul>
+                <li>
+                    <p>ABOUT ETUDE</p>
+                    <a href="">
+                        <p>About Etude</p>
+                        <p>Membership</p>
+                        <p>Shipping Guide</p>
+                    </a>
+                </li>
+                <li>
+                    <p>MY ETUDE</p>
+                    <a href="">
+                        <p>My Account</p>
+                        <p>Track Order</p>
+                        <p>Cookie settings</p>
+                    </a>
+                </li>
+                <li>
+                    <p>HELPE</p>
+                    <a href="">
+                        <p>FAQs</p>
+                        <p>Contact Us</p>
+                        <p>Wholesale Inquiry</p>
+                        <p>Affiliate Program</p>
+                        <p> Notice</p>
+                    </a>
+                </li>
+            </ul>
+            <ul>
+                <li>Terms & Conditions</li>
+                <li>Privacy Policy</li>
+                <li>Cookies Policy</li>
+                <li>Cookie settings</li>
+            </ul>
+            <p>© ETUDE CORPORATION. ALL RIGHTS RESERVED.</p>
+        </div>
+    </footer>
+</body>
+</html>
