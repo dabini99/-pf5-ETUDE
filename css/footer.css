@@ -1,5 +1,6 @@
 footer {
   
+  position: relative;
 }
 footer .wrap {  
   display: flex;
@@ -35,27 +36,54 @@ footer .wrap li.atg {
 footer .wrap p.in {
   
 }
-footer .wrap ul.named {
-  
+footer .wrap ul.named {  
+  justify-content: space-around;
+  width: 100%;
+  margin-bottom: 30px;
 }
 footer .wrap ul.named li {
   
 }
-footer .wrap ul.named li p {
-  
+footer .wrap ul.named li h3 {  
+  margin: 20px 0;
+  text-align: center;
 }
 footer .wrap ul.named li a {
   
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-footer .wrap ul.named li a p {
-  
+footer .wrap ul.named li a p {  
+  line-height: 1.6;
+  color: #999999;
+  font-size: 15px;
 }
-footer .wrap ul.bot {
-  
+footer .wrap ul.bot {  
+  width: 50%;
 }
-footer .wrap ul.bot li {
-  
+footer .wrap ul.bot::before{
+  content: "";
+  border-top: 1px solid #999999;
+  display: block;
+  width: 100%;
+  position: absolute;
+  left: 0;
 }
-footer .wrap p.sc {
-  
+footer .wrap ul.bot li {  
+  margin-top: 50px;
+  color: #999999;
+}
+footer .wrap p.sc {  
+  margin-top: 30px;
+  font-size: 14px;
+}
+footer .wrap p.sc::before{
+  content: "";
+  background-image: url(../img/icon-accessibility_n.svg);
+  width: 45px;
+  height: 45px;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 30px;
 }
