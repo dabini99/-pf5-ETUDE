@@ -1,20 +1,36 @@
 footer {
   
 }
-footer .wrap {
-  
+footer .wrap {  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
-footer .wrap p.jo {
-  
+footer .wrap p.jo {  
+  line-height: 2;
 }
-footer .wrap h2.si {
-  
+footer .wrap h2.si {  
+ 
 }
-footer .wrap li.email {
-  
+footer .wrap li.email {  
+  list-style: none;
+  position: relative;
+  padding: 25px 100px;
 }
-footer .wrap li.atg {
-  
+footer .wrap li.email::before{
+  content: "";
+  width: 680px;
+  height: 65px;
+  display: block;
+  background-color: rgba(118, 117, 117, 0.3);
+  position: absolute;
+  border-radius: 20px;
+  left: -150px;
+  top: 0;
+}
+footer .wrap li.atg {  
+  list-style: none;
 }
 footer .wrap p.in {
   

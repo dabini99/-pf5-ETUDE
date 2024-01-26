@@ -35,13 +35,16 @@ section#best div.wrap ul div.products h3 {
   
 }
 section#best div.wrap ul div.products p {
-  
+  display: flex;
+  font-weight: 200;
+  color: #999999;
 }
 section#best div.wrap ul div.products p span {
-  
+  font-weight: 500;
+  color: #ef4a75;
 }
-section#best div.wrap ul div.products p span br {
-  
+section#best div.wrap ul div.products p label {
+  text-decoration: line-through;
 }
 section#best div.wrap ul div.products a {
   

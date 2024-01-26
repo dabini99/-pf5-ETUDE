@@ -30,15 +30,19 @@ section#hotdeals div.wrap ul .products img {
 }
 section#hotdeals div.wrap ul .products h3 {
   
+  font-weight: 700;
 }
-section#hotdeals div.wrap ul .products p {
-  
+section#hotdeals div.wrap ul .products p {  
+  display: flex;
+  font-weight: 200;
+  color: #999999;
 }
-section#hotdeals div.wrap ul .products p span {
-  
+section#hotdeals div.wrap ul .products p span {  
+  font-weight: 500;
+  color: #ef4a75;
 }
-section#hotdeals div.wrap ul .products p span br {
-  
+section#hotdeals div.wrap ul .products p label {  
+  text-decoration: line-through;
 }
 section#hotdeals div.wrap ul .products a {  
   position: relative;

@@ -27,7 +27,8 @@ section#new div.wrap ul {
 }
 section#new div.wrap ul h2 {  
   grid-column: 1;
-  /*! position: relative; */
+  /*! position: absolute; */
+  font-weight: 700;
 }
 section#new div.wrap ul h2::before{
   content: "";
@@ -35,9 +36,9 @@ section#new div.wrap ul h2::before{
   display: block;
   width: 855px;
   height: 1224px;
-  /*! position: absolute; */
+  /*! position: relative; */
 }
-section#new div.wrap ul h2 span {
+section#new div.wrap ul h2 br {
   
 }
 section#new div.wrap ul .newpro{
