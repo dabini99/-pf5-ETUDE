@@ -23,7 +23,7 @@ section#new div.wrap a {
 }
 section#new div.wrap ul {  
   display: grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: 50% 50%;
 }
 section#new div.wrap ul h2 {  
   grid-column: 1;
