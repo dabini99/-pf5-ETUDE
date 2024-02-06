@@ -20,7 +20,21 @@ section#best div.wrap h2::before{
   background-size: contain;
 }
 section#best div.wrap a {  
-  text-align: center;
+  
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+section#best div.wrap a p{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 135px;
+  height: 46px;
+  background-color: #404040;
+  border-radius: 10px;
+  color: white;
+  font-weight: 700;
 }
 section#best div.wrap ul {
   

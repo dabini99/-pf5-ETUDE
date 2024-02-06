@@ -1,11 +1,13 @@
 section#new {  
   min-height: 1000px;
+  box-sizing: border-box;
 }
 section#new div.wrap {
   
 }
 section#new div.wrap h2.h3 {  
   text-align: center;
+  margin-bottom: 30px;
 }
 section#new div.wrap h2.h3::before{
   content: "";
@@ -18,25 +20,39 @@ section#new div.wrap h2.h3::before{
   background-repeat: no-repeat;
   background-size: contain;
 }
-section#new div.wrap a {  
-  text-align: center;
+section#new div.wrap p {  
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+section#new div.wrap p a{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 135px;
+  height: 46px;
+  background-color: #404040;
+  border-radius: 10px;
+  color: white;
+  font-weight: 700;
 }
 section#new div.wrap ul {  
   display: grid;
   grid-template-columns: 50% 50%;
 }
-section#new div.wrap ul h2 {  
+section#new div.wrap ul .photo{
   grid-column: 1;
-  /*! position: absolute; */
-  font-weight: 700;
+  position: relative;
 }
-section#new div.wrap ul h2::before{
-  content: "";
-  background-image: url(../img/new_photo_big.jpg);
-  display: block;
+section#new div.wrap ul .photo img{
   width: 855px;
   height: 1224px;
-  /*! position: relative; */
+  border-radius: 10px;
+}
+section#new div.wrap ul .photo h2 {  
+  position: absolute;
+  font-weight: 700;
+  bottom: 0;
 }
 section#new div.wrap ul h2 br {
   
@@ -44,27 +60,54 @@ section#new div.wrap ul h2 br {
 section#new div.wrap ul .newpro{
   grid-column: 2;
   display: flex;
-  width: calc(100% / 2);
+  width: 100%;
 }
-section#new div.wrap ul .newpro div.products {
+.slick-prev, .slick-next{
   
 }
+section#new div.wrap ul .newpro div.products {  
+  width: calc(100% / 2) !important;
+  height: calc(100% / 2) !important;
+  padding: 20px;
+  box-sizing: border-box;
+}
 section#new div.wrap ul .newpro div.products img {  
-  width: 100px;
-  height: 100px;
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
 }
 section#new div.wrap ul .newpro div.products h3 {
   
 }
-section#new div.wrap ul .newpro div.products p {
-  
+section#new div.wrap ul .newpro div.products p {  
+  justify-content: start;
+  color: #888888;
+  line-height: 19px;
 }
-section#new div.wrap ul .newpro div.products p span {
-  
+section#new div.wrap ul .newpro div.products p label{
+  text-decoration: line-through;
+}
+section#new div.wrap ul .newpro div.products p span {  
+  color: #ef426f;
+  font-size: 19px;
+  font-weight: 500;
 }
 section#new div.wrap ul .newpro div.products p span br {
   
 }
 section#new div.wrap ul .newpro div.products a {
-  
+  width: 122px;
+  height: 40px;
+  display: block;
+  text-align: center;
+  line-height: 40px;
+  background-color: #eaeaea;
+  border-radius: 5px;
+  font-size: 14px;
+}
+.slick-prev::before{
+  color: black !important;
+}
+.slick-next::before{
+  color: black !important;
 }
