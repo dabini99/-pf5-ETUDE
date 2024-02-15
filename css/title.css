@@ -12,6 +12,12 @@ div#title div.photo1::before{
   background-size: cover;
   background-repeat: no-repeat;
 }
+div#title div.photo1:nth-child(2):before{
+  background-image: url(../img/title_photo2.jpg);
+}
+div#title div.photo1:nth-child(3):before{
+  background-image: url(../img/title_photo3.jpg);
+}
 div#title div.photo1 .text{
   position: absolute;
   bottom: 100px;
@@ -23,22 +29,4 @@ div#title div.photo1 .text h2 {
 }
 div#title div.photo1 .text p {  
   font-size: 22px;
-}
-div#title div.photo2 {
-  
-}
-div#title div.photo2 h2 {
-  
-}
-div#title div.photo2 p {
-  
-}
-div#title div.photo3 {
-  
-}
-div#title div.photo3 h2 {
-  
-}
-div#title div.photo3 p {
-  
 }

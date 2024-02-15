@@ -1,5 +1,7 @@
 section#best {
   min-height: 800px;
+  background-color: #faeeee;
+  box-sizing: border-box;
 }
 section#best div.wrap {
   
@@ -19,11 +21,11 @@ section#best div.wrap h2::before{
   background-repeat: no-repeat;
   background-size: contain;
 }
-section#best div.wrap a {  
+section#best div.wrap p.moreB{
   
-  display: flex;
-  justify-content: center;
-  margin-bottom: 30px;
+}
+section#best div.wrap p.moreB>a{  
+
 }
 section#best div.wrap a p{
   display: flex;
@@ -52,6 +54,7 @@ section#best div.wrap ul div.products p {
   display: flex;
   font-weight: 200;
   color: #999999;
+  margin-bottom: 30px;
 }
 section#best div.wrap ul div.products p span {
   font-weight: 500;
@@ -60,8 +63,21 @@ section#best div.wrap ul div.products p span {
 section#best div.wrap ul div.products p label {
   text-decoration: line-through;
 }
-section#best div.wrap ul div.products a {
-  
+section#best div.wrap ul div.products a {  
+  display: block;
+  width: 122px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+}
+section#best div.wrap ul div.products a::before{
+  content: "";
+  display: block;
+  width: 122px;
+  background-color: rgba(0,0,125,0.3);
+  position: absolute;
+  height: 40px;
+  border-radius: 5px;
 }
 .slick-slide {
   margin: 0 5px; /* space(여백)/2 */

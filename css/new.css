@@ -52,7 +52,8 @@ section#new div.wrap ul .photo img{
 section#new div.wrap ul .photo h2 {  
   position: absolute;
   font-weight: 700;
-  bottom: 0;
+  bottom: 50px;
+  left: 50px;
 }
 section#new div.wrap ul h2 br {
   
