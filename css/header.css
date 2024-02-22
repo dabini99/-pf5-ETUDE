@@ -29,17 +29,18 @@ header div.wrap ul.gnb{
   /*! width: calc(60% - 54px); */
   /*! justify-content: space-around; */
   /*! width: 100%; */
-  grid-row: 2;
+  grid-row: 1 / span 2;
   grid-column: 2;
   display: flex;
   justify-content: space-around;
   /*! justify-self: flex-end; */
+  align-items: center;
 }
 header div.wrap ul.gnb li{
    
 }
 header div.wrap ul.log{   
-  width: calc(40% - 54px);
+  /*! width: calc(40% - 54px); */
   display: grid;
   grid-template-rows: auto auto;
   grid-template-columns: auto auto auto;
@@ -50,7 +51,8 @@ header div.wrap ul.log{
   grid-row: 1 / span 2;
   grid-column: 3;
   justify-self: end;
-  row-gap: 5px;
+  /*! row-gap: 5px; */
+  /*! width: 100%; */
 }
 header div.wrap ul.log li{
    
@@ -59,6 +61,11 @@ header div.wrap ul.log li:nth-child(1){
   grid-column: 1;
   grid-row: 2;
   position: relative;
+  display: flex;
+  justify-content: space-between;
+  width: 235px;
+  align-items: center;
+  color: white;
 }
 header div.wrap ul.log li:nth-child(1)::before{
   content: "";
@@ -68,8 +75,17 @@ header div.wrap ul.log li:nth-child(1)::before{
   display: block;
   position: absolute;
   right: 0;
-  bottom: -8px;
+  bottom: 0px;
   border-radius: 10px;
+}
+header div.wrap ul.log li:nth-child(1)::after{ 
+  content: "";
+  background-image: url(../img/search.svg);
+  width: 44px;
+  height: 44px;
+  display: block;
+  /*! order: 1; */
+  background-size: contain;
 }
 header div.wrap ul.log li:nth-child(2){  
   grid-column: 2;

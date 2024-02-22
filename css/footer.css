@@ -27,7 +27,7 @@ footer .wrap li.email::before{
   display: block;
   background-color: rgba(118, 117, 117, 0.3);
   position: absolute;
-  border-radius: 20px;
+  border-radius: 3px;
   left: -150px;
   top: 0;
 }
