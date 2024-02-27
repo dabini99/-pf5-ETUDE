@@ -1,22 +1,21 @@
 div#title {
   
+  height: 100vh;
 }
 div#title div.photo1 {  
   position: relative;
-}
-div#title div.photo1::before{
-  content: "";
+  height: 100vh;
   background-image: url(../img/title_photo1.jpg);
-  width: 100%;
-  height: 100%;
-  background-size: cover;
-  background-repeat: no-repeat;
 }
-div#title div.photo1:nth-child(2):before{
+div#title div.photo1:nth-child(2){
   background-image: url(../img/title_photo2.jpg);
+  position: relative;
+  height: 100vh;
 }
-div#title div.photo1:nth-child(3):before{
+div#title div.photo1:nth-child(3){
   background-image: url(../img/title_photo3.jpg);
+  position: relative;
+  height: 100vh;
 }
 div#title div.photo1 .text{
   position: absolute;
