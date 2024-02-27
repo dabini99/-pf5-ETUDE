@@ -26,18 +26,21 @@ section#hotdeals div.wrap ul {
 }
 section#hotdeals div.wrap ul .products {  
   background-color: rgba(255,255,255,0.3);
+  box-sizing: border-box;
 }
 section#hotdeals div.wrap ul .products img {
   
 }
 section#hotdeals div.wrap ul .products h3 { 
   font-weight: 700;
+  padding: 10px 5px;
 }
 section#hotdeals div.wrap ul .products p {  
   display: flex;
   font-weight: 200;
   color: #999999;
-  margin-bottom: 30px;
+  /*! margin-bottom: 20px; */
+  padding: 10px;
 }
 section#hotdeals div.wrap ul .products p span {  
   font-weight: 500;

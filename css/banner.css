@@ -5,5 +5,6 @@ section#banner div.wrap{
   justify-content: center;
 }
 section#banner div.wrap a{
-   
+  gap: 40px;
+  display: flex;
 }
