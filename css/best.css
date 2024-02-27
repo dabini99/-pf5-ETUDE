@@ -8,7 +8,7 @@ section#best div.wrap {
 }
 section#best div.wrap h2 {
   text-align: center;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 section#best div.wrap h2::before{
   content: "";
@@ -21,11 +21,22 @@ section#best div.wrap h2::before{
   background-repeat: no-repeat;
   background-size: contain;
 }
-section#best div.wrap p.moreB{
-  
+section#best div.wrap p.moreB{  
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
 }
 section#best div.wrap p.moreB>a{  
 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 135px;
+  height: 46px;
+  background-color: #404040;
+  border-radius: 10px;
+  color: white;
+  font-weight: 700;
 }
 section#best div.wrap a p{
   display: flex;
@@ -42,13 +53,13 @@ section#best div.wrap ul {
   
 }
 section#best div.wrap ul div.products {
-  
+  background-color: rgba(255,255,255,0.3);
 }
 section#best div.wrap ul div.products img {
   
 }
 section#best div.wrap ul div.products h3 {
-  
+  font-weight: 700;
 }
 section#best div.wrap ul div.products p {
   display: flex;
@@ -69,15 +80,17 @@ section#best div.wrap ul div.products a {
   height: 40px;
   text-align: center;
   line-height: 40px;
+  padding: 10px;
 }
 section#best div.wrap ul div.products a::before{
   content: "";
   display: block;
   width: 122px;
-  background-color: rgba(0,0,125,0.3);
+  background-color: rgba(234,234,234,0.9);
   position: absolute;
   height: 40px;
   border-radius: 5px;
+  z-index: -1;
 }
 .slick-slide {
   margin: 0 5px; /* space(여백)/2 */
