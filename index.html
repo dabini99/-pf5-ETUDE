@@ -66,7 +66,9 @@
                     slidesToShow: 1,
                     slidesToScroll: 1,
                     autoplay: true,
-                    autoplaySpeed: 2000
+                    autoplaySpeed: 2000,
+                    dots: true,
+                    arrows: false
                  });
             }
         );
@@ -88,11 +90,13 @@
                 <li>HOT DEALS</li>
             </ul>
             <ul class="log flex">
-                <li>search</li>
-                <li>하트</li>
-                <li>장바구니</li>
-                <li>Login</li>
-                <li>Register</li>
+                <input type="text" placeholder="search" style="width: 235px; height: 45px;">
+                <li><a href="">하트</a></li>
+                <li><a href="">장바구니</a></li>
+            </ul>
+            <ul class="po">
+                <li><a href="">Login</a></li>
+                <li><a href="">Register</a></li>
             </ul>
         </div>
     </header>
@@ -334,12 +338,15 @@
         <div class="wrap">
             <p class="jo h5">Join Us And Be The First To Know About Promotions, Exclusive Offers, And More.</p>
             <h2 class="si h3">Sign up for updates</h2>
-            <li class="email">Your email address</li>
-            <li class="atg">SUBSCRIBE</li>
-            <p class="in"> I have read and accept the privacy policy. </p>
+            <input type="text" placeholder="Your email address" class="email" style="width: 680px; height: 50px;">
+            <button>SUBSCRIBE</button>
+            <div class="check_wrap">
+                <input type="checkbox" id="check_btn" class="check"/>
+                <label for="check_btn"><span> I have read and accept the privacy policy.</span></label>
+            </div>
             <ul class="named flex">
                 <li>
-                    <h3 class="h5">ABOUT ETUDE</h3>
+                    <h3 class="h6">ABOUT ETUDE</h3>
                     <a href="">
                         <p>About Etude</p>
                         <p>Membership</p>
@@ -347,7 +354,7 @@
                     </a>
                 </li>
                 <li>
-                    <h3 class="h5">MY ETUDE</h3>
+                    <h3 class="h6">MY ETUDE</h3>
                     <a href="">
                         <p>My Account</p>
                         <p>Track Order</p>
@@ -355,7 +362,7 @@
                     </a>
                 </li>
                 <li>
-                    <h3 class="h5">HELPE</h3>
+                    <h3 class="h6">HELPE</h3>
                     <a href="">
                         <p>FAQs</p>
                         <p>Contact Us</p>

@@ -1,6 +1,16 @@
 div#title {
-  
   height: 100vh;
+}
+.slick-dotted.slick-slider{
+  margin-bottom: 0 !important;
+}
+div#title .slick-slide{
+  margin: 0;
+}
+div#title .slick-dots{
+  bottom: 0;
+}
+div#title .slick-dots li button{
 }
 div#title div.photo1 {  
   position: relative;
