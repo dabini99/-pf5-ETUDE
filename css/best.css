@@ -60,12 +60,16 @@ section#best div.wrap ul div.products img {
 }
 section#best div.wrap ul div.products h3 {
   font-weight: 700;
+  box-sizing: border-box;
+  padding: 10px 5px;
 }
 section#best div.wrap ul div.products p {
   display: flex;
   font-weight: 200;
   color: #999999;
   margin-bottom: 30px;
+  align-items: center;
+  padding: 10px;
 }
 section#best div.wrap ul div.products p span {
   font-weight: 500;

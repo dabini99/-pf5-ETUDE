@@ -38,6 +38,7 @@ footer .wrap button {
   background-color: #313131;
   color: white;
   margin-bottom: 5px;
+  cursor: pointer;
 } 
 footer .wrap .check_wrap {  
   display: flex;
