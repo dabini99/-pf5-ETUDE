@@ -25,6 +25,7 @@ header div.wrap h2{
   grid-column: 1;
   grid-row: 1 / span 2;
   align-self: center;
+  transform: translateY(5px);
 }
 header div.wrap ul.gnb{   
   /*! width: calc(60% - 54px); */
@@ -40,7 +41,10 @@ header div.wrap ul.gnb{
 header div.wrap ul.gnb li{
   font-weight: 700;
 }
-header div.wrap ul.gnb li:nth-child(8){  
+header div.wrap ul.gnb li a{
+
+}
+header div.wrap ul.gnb li:nth-child(8) a{  
   color: #d40056;
 }
 header div.wrap ul.log{   
