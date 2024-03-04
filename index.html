@@ -81,10 +81,14 @@
 
                  //hover로 이미지 변경
                  var n=1;
-                 $("header > div.subShopM .Choice ul.uno").hover(function(){
-                    $("header > div.subShopM .Choice ul.uno a img").attr("src","img/choice"+n+".jpg");
-                    n++;
-                 });
+                 $("header > div.subShopM .Choice ul.uno").hover(
+                    function(){
+                      $("header > div.subShopM .Choice ul.uno a img").attr("src","img/choice"+(n+1)+".jpg");
+                   
+                    },function(){
+                        $("header > div.subShopM .Choice ul.uno a img").attr("src","img/choice"+n+".jpg");
+                    }
+                 );
                  var m=1;
                  $("header > div.subShopM .Choice ul.dos").hover(function(){
                     $("header > div.subShopM .Choice ul.dos a img").attr("src","img/gloss"+m+".jpg");
