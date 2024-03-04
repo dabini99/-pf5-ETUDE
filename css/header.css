@@ -166,32 +166,51 @@ header div.subShopM .list ul li a{
 header > div.subShopM .Choice{  
   width: 20%;
   padding-left: 40px;
+  row-gap: 20px;
+  display: flex;
+  flex-direction: column;
 }
-header > div.subShopM .Choice ul{  
+header > div.subShopM .Choice ul.uno{  
   height: calc(100% / 2);
   box-sizing: border-box;
 }
-header > div.subShopM .Choice ul a{  
+header > div.subShopM .Choice ul.uno a{  
 
 }
-header > div.subShopM .Choice ul a img{  
+header > div.subShopM .Choice ul.uno a img{  
 
 }
-header > div.subShopM .Choice ul a img:nth-child(1):hover{
-  background-image: url(../img/gloss2.jpg);
-}
-header > div.subShopM .Choice ul a img:nth-child(2):hover{
-  background-image: url(../img/choice2.jpg);
-}
-header > div.subShopM .Choice ul a li{  
+header > div.subShopM .Choice ul.uno a li{  
   font-weight: 700;
 }
-header > div.subShopM .Choice ul a li span{  
+header > div.subShopM .Choice ul.uno a li span{  
   display: block;
   color: #d40056;
   font-weight: 500;
 }
-header > div.subShopM .Choice ul a li span label{  
+header > div.subShopM .Choice ul.uno a li span label{  
+  text-decoration: line-through;
+  color: #888888;
+}
+header > div.subShopM .Choice ul.dos{  
+  height: calc(100% / 2);
+  box-sizing: border-box;
+}
+header > div.subShopM .Choice ul.dos a{  
+
+}
+header > div.subShopM .Choice ul.dos a img{  
+
+}
+header > div.subShopM .Choice ul.dos a li{  
+  font-weight: 700;
+}
+header > div.subShopM .Choice ul.dos a li span{  
+  display: block;
+  color: #d40056;
+  font-weight: 500;
+}
+header > div.subShopM .Choice ul.dos a li span label{  
   text-decoration: line-through;
   color: #888888;
 }
