@@ -89,8 +89,9 @@
                     }
                  );
                  var m=1;
-                 $("header > div.subShopM .Choice ul.dos").hover(function(){
-                    $("header > div.subShopM .Choice ul.dos a img").attr("src","img/gloss"+(m+1)+".jpg");
+                 $("header > div.subShopM .Choice ul.dos").hover(
+                    function(){
+                        $("header > div.subShopM .Choice ul.dos a img").attr("src","img/gloss"+(m+1)+".jpg");
                     },function(){
                         $("header > div.subShopM .Choice ul.dos a img").attr("src","img/gloss"+m+".jpg");
                     }
