@@ -163,6 +163,12 @@ header div.subShopM .list ul li:first-child{
 header div.subShopM .list ul li a{
   
 }
+header div.subShopM .list ul li:not(:first-child) a{
+  
+}
+header div.subShopM .list ul li:not(:first-child):hover a{  
+  color: #d40056;
+}
 header > div.subShopM .Choice{  
   width: 20%;
   padding-left: 40px;
