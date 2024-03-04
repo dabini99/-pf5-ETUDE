@@ -128,3 +128,73 @@ header div.wrap ul.po li a{
 header div.wrap ul.po li a:hover{
   color: #d40056;
 }
+header > div.subShopM{
+  width: 1200px;
+  height: 623.5px;
+  background-color: white;
+  box-sizing: border-box;
+  padding: 40px;
+  border-radius: 5px;
+  position: absolute;
+  left: 180px;
+}
+header > div.subShopM .list{  
+  display: grid;
+  grid-template-columns: repeat(5,auto);
+  width: 80%;
+  border-right: 2px solid #cfcece87;
+}
+header div.subShopM .list ul{
+  
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+}
+header div.subShopM .list ul li{  
+}
+header div.subShopM .list ul li:not(:first-child){  
+  line-height: 1.9;
+  font-size: 15px;
+}
+header div.subShopM .list ul li:first-child{  
+  font-weight: 700;
+  padding: 10px 0;
+}
+header div.subShopM .list ul li a{
+  
+}
+header > div.subShopM .Choice{  
+  width: 20%;
+  padding-left: 40px;
+}
+header > div.subShopM .Choice ul{  
+  height: calc(100% / 2);
+  box-sizing: border-box;
+}
+header > div.subShopM .Choice ul a{  
+
+}
+header > div.subShopM .Choice ul a img{  
+
+}
+header > div.subShopM .Choice ul a img:nth-child(1):hover{
+  background-image: url(../img/gloss2.jpg);
+}
+header > div.subShopM .Choice ul a img:nth-child(2):hover{
+  background-image: url(../img/choice2.jpg);
+}
+header > div.subShopM .Choice ul a li{  
+  font-weight: 700;
+}
+header > div.subShopM .Choice ul a li span{  
+  display: block;
+  color: #d40056;
+  font-weight: 500;
+}
+header > div.subShopM .Choice ul a li span label{  
+  text-decoration: line-through;
+  color: #888888;
+}
+.showS{
+display: flex;
+}

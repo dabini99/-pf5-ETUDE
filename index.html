@@ -70,6 +70,14 @@
                     dots: true,
                     arrows: false
                  });
+
+                 //상단 서브 메뉴
+                 $("header div.wrap ul.gnb li").hover(function(){
+                    $("header > div.subShopM").addClass("showS");
+                 });
+                 $("header > div.subShopM").mouseleave(function(){
+                    $("header > div.subShopM").removeClass("showS");
+                 });
             }
         );
     </script>
@@ -99,103 +107,88 @@
                 <li><a href="">Register</a></li>
             </ul>
         </div>
-        <div class="subShopM hide">
-            <div class="list">
+        <div class="subShopM hide flex">
+            <div class="list wrap flex">
                 <ul>
-                    <li><a href="">eye</a></li>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
+                    <li><a href="">EYE</a></li>
+                    <li><a href="">Eye Palettes</a></li>
+                    <li><a href="">Mascara</a></li>
+                    <li><a href="">Eyeliner</a></li>
+                    <li><a href="">Eyebrow</a></li>
+                    <li><a href="">Eye Shadow&Primer</a></li>
+                    <li><a href="">Eyelash</a></li>
                 </ul>
                 <ul>
-                    <li><a href="">lip</a></li>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
+                    <li><a href="">LIP</a></li>
+                    <li><a href="">Lipstain</a></li>
+                    <li><a href="">Lipstick</a></li>
+                    <li><a href="">Lip Balm&Treatment</a></li>
                 </ul>
                 <ul>
-                    <li><a href="">skincare</a></li>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
+                    <li><a href="">FACE</a></li>
+                    <li><a href="">Foundation</a></li>
+                    <li><a href="">BB/CC/Cushion</a></li>
+                    <li><a href="">Face Primer</a></li>
+                    <li><a href="">Concealer</a></li>
+                    <li><a href="">Setting Powder & Spray</a></li>
+                    <li><a href="">Blush</a></li>
+                    <li><a href="">Contour</a></li>
                 </ul>
                 <ul>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
+                    <li><a href="">SKINCARE</a></li>
+                    <li><a href="">Toner</a></li>
+                    <li><a href="">Emulsion</a></li>
+                    <li><a href="">Cream</a></li>
+                    <li><a href="">Special Care</a></li>
+                    <li><a href="">Suncare</a></li>
+                    <li><a href="">Set</a></li>
                 </ul>
                 <ul>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
+                    <li><a href="">CLEANSER</a></li>
+                    <li><a href="">Face Wash & Cleansers</a></li>
+                    <li><a href="">Makeup Removers</a></li>
+                    <li><a href="">Exfoliators</a></li>
                 </ul>
                 <ul>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
+                    <li><a href="">MASKS/PATCH</a></li>
+                    <li><a href="">Sheet & Face Masks</a></li>
+                    <li><a href="">Patches</a></li>
                 </ul>
                 <ul>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
+                    <li><a href="">NAIE</a></li>
+                    <li><a href="">Nail Polish</a></li>
+                    <li><a href="">Nail Care/Tools</a></li>
                 </ul>
                 <ul>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
+                    <li><a href="">HAIR & BODY</a></li>
+                    <li><a href="">Hair Treatment & <span>Coloring</span></a></li>
+                    <li><a href="">Body Wash & <span>Moisturizers</span></a></li>
                 </ul>
                 <ul>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
+                    <li><a href="">TOOLS & BRUSH</a></li>
+                    <li><a href="">Brush</a></li>
+                    <li><a href="">Cotton</a></li>
+                    <li><a href="">Makeup Tool</a></li>
+                    <li><a href="">ETC</a></li>
                 </ul>
                 <ul>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
+                    <li><a href="">GIFT SETS</a></li>
+                    <li><a href="">Skincare Gifts</a></li>
+                    <li><a href="">Makeup Gifts</a></li>
                 </ul>
             </div>
             <div class="Choice">
                 <ul>
-                    <img src="" alt="">
-                    <li><a href=""></a></li>
+                    <a href="#">
+                        <img src="img/choice1.jpg" alt="">
+                        <li>[SET] Firming Skincaare Essentials <span>US $58.44 <label>US $97.40</label></span></li>
+                    </a>
+                </ul>
+                <ul>
+                    <a href="#">
+                        <img src="img/gloss.jpg" alt="">
+                        <li>Glaze Plump Gloss <span>US $12.48 <label>US 15.60</label> </span></li>
+                    </a>
                 </ul>
             </div>
         </div>
