@@ -38,13 +38,13 @@
     <script type="text/javascript">
         $(document).ready(
             function(){
-                $('.hot').slick({
-                    infinite: true,
-                    slidesToShow: 5,
-                    slidesToScroll: 1,
-                    dots: true,
-                    arrows: true 
-                });
+                // $('.hot').slick({
+                //     infinite: true,
+                //     slidesToShow: 5,
+                //     slidesToScroll: 1,
+                //     dots: true,
+                //     arrows: true 
+                // });
                 $('.newo').slick({
                     rows: 2,
                     slidesPerRow: 2,
@@ -61,7 +61,7 @@
                     arrows: true 
                 });
                 // title 슬릭
-                 $('div#title').slick({
+                $('div#title').slick({
                     infinite: true,
                     slidesToShow: 1,
                     slidesToScroll: 1,
@@ -69,31 +69,42 @@
                     autoplaySpeed: 2000,
                     dots: true,
                     arrows: false
-                 });
+                });
 
                  //상단 서브 메뉴
-                 $("header div.wrap ul.gnb li:nth-child(1)").hover(function(){
+                $("header div.wrap ul.gnb li:nth-child(1)").hover(function(){
                     $("header > div.subShopM").addClass("showS");
-                 });
-                 $("header > div.subShopM").mouseleave(function(){
+                });
+                $("header > div.subShopM").mouseleave(function(){
                     $("header > div.subShopM").removeClass("showS");
-                 });
+                });
 
                  //hover로 이미지 변경
-                 var n=1;
-                 $("header > div.subShopM .Choice ul.uno").hover(
+                var n=1;
+                $("header > div.subShopM .Choice ul.uno").hover(
                     function(){
                       $("header > div.subShopM .Choice ul.uno a img").attr("src","img/choice"+(n+1)+".jpg");
                     },function(){
                         $("header > div.subShopM .Choice ul.uno a img").attr("src","img/choice"+n+".jpg");
                     }
-                 );
-                 var m=1;
-                 $("header > div.subShopM .Choice ul.dos").hover(
+                );
+                var m=1;
+                $("header > div.subShopM .Choice ul.dos").hover(
                     function(){
                         $("header > div.subShopM .Choice ul.dos a img").attr("src","img/gloss"+(m+1)+".jpg");
                     },function(){
                         $("header > div.subShopM .Choice ul.dos a img").attr("src","img/gloss"+m+".jpg");
+                    }
+                );
+                //hotdeal hover로 사진 변경
+                var n=1;
+                var m=1;
+                $("section#hotdeals div.wrap ul .products img").hover(
+                    function(){
+                        n=$(this).parent().index()+1;
+                        $(this).attr("src","img/best"+n+"-"+(m+1)+".jpg");
+                    },function(){
+                        $(this).attr("src","img/best"+n+"-"+m+".jpg");
                     }
                 );
             }
