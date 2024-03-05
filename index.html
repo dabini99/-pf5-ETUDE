@@ -108,6 +108,16 @@
                     }
                 );
                 //newthings hover로 사진 변경
+                var n=1;
+                var m=1;
+                $("section#new div.wrap .nenew .newpro div.products img").hover(
+                    function(){
+                        n=Number($(this).parent().attr("data-new"))+1;
+                        $(this).attr("src","img/new"+n+"-"+(m+1)+".jpg");
+                    },function(){
+                        $(this).attr("src","img/new"+n+"-1.jpg");
+                    }
+                );
             }
         );
     </script>
@@ -313,50 +323,50 @@
                         <h2 class="h5">REPLAY Play Color Eyes<br>#Legendary Taro Cherry</h2>
                     </div>
                     <div class="newpro newo">
-                        <div class="products">
-                            <img src="img/new_photo_eyes1.jpg" alt="[SET] REPLAY Look At My Eyes Full Set">
+                        <div class="products" data-new="0">
+                            <img src="img/new1-1.jpg" alt="[SET] REPLAY Look At My Eyes Full Set">
                             <h3>[SET] REPLAY Look At My Eyes Full Set (+Free Gift)</h3>
                             <p>US $34.32<span>US $57.20</span></p>
                             <a href="">ADD TO CART</a>
                         </div>
-                        <div class="products">
-                            <img src="img/new_replay_pce_main1.jpg" alt="REPLAY Play Color Eyes">
+                        <div class="products" data-new="1">
+                            <img src="img/new2-1.jpg" alt="REPLAY Play Color Eyes">
                             <h3>REPLAY Play Color Eyes</h3>
                             <p>As low as:<span>US $17.28</span><label>US $21.60</label></p>
                             <a href="">ADD TO CART</a>
                         </div>
-                        <div class="products">
-                            <img src="img/new_photo_oil_set1.jpg" alt="oil set">
+                        <div class="products" data-new="2">
+                            <img src="img/new3-1.jpg" alt="oil set">
                             <h3>[SET] Dear Darling Oil Tint Full Set 6 Colors</h3>
                             <p>US $55.44<label>US $79.20</label></p>
                             <a href="">ADD TO CART</a>
                         </div>
-                        <div class="products">
-                            <img src="img/new_photo_panda1.jpg" alt="panda">
+                        <div class="products" data-new="3">
+                            <img src="img/new4-1.jpg" alt="panda">
                             <h3>Missing U Hand Cream #I'm a Peachy Panda</h3>
                             <p>US $6.82<label>US $9.75</label></p>
                             <a href="">ADD TO CART</a>
                         </div>
-                        <div class="products">
-                            <img src="img/new_photo_oil1.jpg" alt="oil">
+                        <div class="products" data-new="4">
+                            <img src="img/new5-1.jpg" alt="oil">
                             <h3>Dear Darling Oil Tint</h3>
                             <p>As low as:<span>US $10.56</span><label>US $13.20</label></p>
                             <a href="">ADD TO CART</a>
                         </div>
-                        <div class="products">
-                            <img src="img/new_replay_sgb_main1.jpg" alt="Glossy Balm">
+                        <div class="products" data-new="5">
+                            <img src="img/new6-1.jpg" alt="Glossy Balm">
                             <h3>REPLAY Syrup Glossy Balm</h3>
                             <p>As low as:<span>US $13.44</span><label>US $16.80</label></p>
                             <a href="">ADD TO CART</a>
                         </div>
-                        <div class="products">
-                            <img src="img/new_replay_lme_main1_1.jpg" alt="look at my eyes">
+                        <div class="products" data-new="6">
+                            <img src="img/new7-1.jpg" alt="look at my eyes">
                             <h3>REPLAY Look At My Eyes</h3>
                             <p>As low as:<span>US $5.72</span><label>US $7.15</label></p>
                             <a href="">ADD TO CART</a>
                         </div>
-                        <div class="products">
-                            <img src="img/new_set_replay_collection_full_set_main1_2.jpg" alt="Collection Full Set">
+                        <div class="products" data-new="7">
+                            <img src="img/new8-1.jpg" alt="Collection Full Set">
                             <h3>[SET] REPLAY Collection Full Set (+Free Gift)</h3>
                             <p><span>US $86.20</span><label>US $172.40</label></p>
                             <a href="">ADD TO CART</a>
