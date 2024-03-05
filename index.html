@@ -72,11 +72,19 @@
                 });
 
                  //상단 서브 메뉴
+                 //shop
                 $("header div.wrap ul.gnb li:nth-child(1)").hover(function(){
                     $("header > div.subShopM").addClass("showS");
                 });
                 $("header > div.subShopM").mouseleave(function(){
                     $("header > div.subShopM").removeClass("showS");
+                });
+                 //offers
+                $("header div.wrap ul.gnb li:nth-child(6)").hover(function(){
+                    $("header > div.offer").addClass("showS");
+                });
+                $("header > div.offer ul").hover(function(){
+                    $("header > div.offer").removeClass("showS");
                 });
 
                  //hover로 이미지 변경
@@ -242,6 +250,14 @@
                     </a>
                 </ul>
             </div>
+        </div>
+        <div class="offer hide">
+            <ul class="flex column">
+                <li><a href="">Etude Talk</a></li>
+                <li><a href="">How to videos</a></li>
+                <li><a href="">Commercial</a></li>
+                <li><a href="">Make Up Look</a></li>
+            </ul>
         </div>
     </header>
     <!-- 타이틀영역 -->
