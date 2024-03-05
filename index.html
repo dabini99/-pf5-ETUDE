@@ -118,6 +118,17 @@
                         $(this).attr("src","img/new"+n+"-1.jpg");
                     }
                 );
+                //best hover로 사진 변경
+                var n=1;
+                var m=1;
+                $("section#best div.wrap ul div.products img").hover(
+                    function(){
+                        n=Number($(this).parent().attr("data-best"))+1;
+                        $(this).attr("src","img/best"+n+"-"+(m+1)+".jpg");
+                    },function(){
+                        $(this).attr("src","img/best"+n+"-1.jpg"); 
+                    }
+                );
             }
         );
     </script>
@@ -381,49 +392,49 @@
                 <h2 class="h3">Best Seller</h2>
                 <p class="moreB"><a href="">View More</a></p>
                 <ul class="be">
-                    <div class="products">
+                    <div class="products" data-best="0">
                         <img src="img/best1-1.jpg" alt="1-1">
                         <h3>[SET] Replay Collection Full Set (+Free GIft)</h3>
                         <p><span>US $86.20</span><label>US $172.40</label></p>
                         <a href="">ADD TO CART</a>
                     </div>
-                    <div class="products">
+                    <div class="products" data-best="1">
                         <img src="img/best2-1.jpg" alt="2-1">
                         <h3>Moistfull Collagen Cream 75ml</h3>
                         <p><span>US $30.00</span></p>
                         <a href="">ADD TO CART</a>
                     </div>
-                    <div class="products">
+                    <div class="products" data-best="2">
                         <img src="img/best3-1.jpg" alt="3-1">
                         <h3>[SET] Firming Skincare Essentials</h3>
                         <p><span>US $68.18</span><label>US $97.40</label></p>
                         <a href="">ADD TO CART</a>
                     </div>
-                    <div class="products">
+                    <div class="products" data-best="3">
                         <img src="img/best4-1.jpg" alt="4-1">
                         <h3>[SET] Replay Collection Duo Set (+Free Gift)</h3>
                         <p>As low as:<span>US $23.04</span><label>US $38.40</label></p>
                         <a href="">ADD TO CART</a>
                     </div>
-                    <div class="products">
+                    <div class="products" data-best="4">
                         <img src="img/best5-1.jpg" alt="5-1">
                         <h3>Soonjung 2x Barrier Intensive Cream 60ml</h3>
                         <p><span>US $20.40</span></p>
                         <a href="">ADD TO CART</a>
                     </div>
-                    <div class="products">
+                    <div class="products" data-best="5">
                         <img src="img/best6-1.jpg" alt="6-1">
                         <h3>Face Blur 35g</h3>
                         <p>As low as:<span>US $19.20</span></p>
                         <a href="">ADD TO CART</a>
                     </div>
-                    <div class="products">
+                    <div class="products" data-best="6">
                         <img src="img/best7-1.jpg" alt="7-1">
                         <h3>[SET] Over-Lip Duo</h3>
                         <p><span>US $20.16</span><label>US $28.80</label></p>
                         <a href="">ADD TO CART</a>
                     </div>
-                    <div class="products">
+                    <div class="products" data-best="7">
                         <img src="img/best8-1.jpg" alt="8-1">
                         <h3>REPLAY Play Color Eyes</h3>
                         <p>As low as:<span>US $17.28</span><label>US $21.60</label></p>
